@@ -16,7 +16,7 @@
   --accent-color: #ff8dcb;
   --button-text-color:#353430;
   --bg-image: url("../images/cover-image-light.png");
-  --dark-bg-color: #fff1f7;
+  --bg-color: #fff1f7;
 }
 
 .theme-light .rec-label {
@@ -32,7 +32,7 @@
     --accent-color: #ff8dcb;
     --button-text-color:#353430;
     --bg-image: url("../images/cover-image-light.png");
-    --dark-bg-color: #fff1f7;
+    --bg-color: #fff1f7;
   }
 
   .theme-auto .rec-label {
@@ -42,4 +42,5 @@
 
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
+  background-color: var(--bg-color, #fff1f7);
 }

@@ -2,8 +2,8 @@
 
 .page {
     /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
-  background-color: var(--bg-color, #000028);
-  font-family: var(--main-font-family, sans-serif);
+  background-color: var(--bg-color);
+  font-family: var(--main-font-family, monospace);
   color: var(--main-text-color, #f1b2ce);
   font-size: 18px;
   line-height: 23.4px;
@@ -238,7 +238,7 @@
 }
 
 .footer-title {
-  font-family: var(--main-font-family), serif;
+  font-family: var(--main-font-family), monospace;
   color: var(--header-title-color);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 96px;

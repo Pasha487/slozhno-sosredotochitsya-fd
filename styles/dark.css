@@ -16,10 +16,11 @@
   --accent-color: #ff0070;
   --button-text-color: #ff0070;
   --bg-image: url("../images/cover-image-dark.png");
-  --dark-bg-color: #000028;
+  --bg-color: #000028;
 }
 
 .theme-dark .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
-
+  background-color: var(--bg-color, 000028);
 }
+пш
