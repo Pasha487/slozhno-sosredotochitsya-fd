@@ -107,7 +107,7 @@
 }
 
 .header__theme-menu-button:hover {
-  outline: 1px solid var(--button-hover-color);
+  outline: 1px solid var(--button-text-color);
 }
 
 .header__theme-menu-button:focus {
@@ -192,7 +192,8 @@
 
 .article__link:hover {
   text-decoration: underline;
-  border-block-end: 1px solid var(--accent-color);
+  border-block-end: 1px solid transparent;
+  /* border-block-end: 2px solid var(--accent-color); */
 }
 
 .article__link:focus {
